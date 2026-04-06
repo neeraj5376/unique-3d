@@ -10,13 +10,13 @@ function App() {
    
    <main>
     <div className="images">
-          <img id='tomorrowland' src="/tommorowland.png" alt="" />
-          <img id='navy-pier' src="/navy-pier.png" alt="" />
-          <img id='msi-chicago' src="/msi-chicago.png" alt="" />
-          <img id='phone' src="/phone.png" alt="" />
-          <img id='kikk' src="/kikk.png" alt="" />
-          <img id='kennedy' src="/kennedy.png" alt="" />
-          <img id='opera' src="/opera.png" alt="" />
+          <img id='tomorrowland' src="./tommorowland.png" alt="" />
+          <img id='navy-pier' src="./navy-pier.png" alt="" />
+          <img id='msi-chicago' src="./msi-chicago.png" alt="" />
+          <img id='phone' src="./phone.png" alt="" />
+          <img id='kikk' src="./kikk.png" alt="" />
+          <img id='kennedy' src="./kennedy.png" alt="" />
+          <img id='opera' src="./opera.png" alt="" />
         </div>
     <Canvas style={{
       height:"100vh",
@@ -25,7 +25,7 @@ function App() {
       top:"0",
       left:"0",
       zIndex:"1",
-      backgroundImage:"url(/public/col/background-l.png)",
+      backgroundImage:"url(./col/background-l.png)",
       backgroundRepeat:"no-repeat",
       backgroundSize:"cover"
     }}>
@@ -34,7 +34,7 @@ function App() {
     <section id='section-1' >
           <nav>
             <div className="nav-elem">
-              <h3 style={{top:"-1"}}><img style={{height:"50PX",top:"0"}} src="/download.png"/></h3>
+              <h3 style={{top:"-1"}}><img style={{height:"50PX",top:"0"}} src="./download.png"/></h3>
               <h3>made by neeraj</h3>
             </div>
             <div className="nav-elem">
